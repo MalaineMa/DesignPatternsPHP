@@ -82,11 +82,11 @@ class FlowerFactory
  }
 }
 
-/*
+
 $factory = new FlowerFactory();
 $rose = $factory->create("Rose");
 echo $rose->createFlower();
 
 $facade = new FlowerFacade();
 $iris = $facade->drawIris();
-echo $iris;*/
+echo $iris;

@@ -82,11 +82,22 @@ class FlowerFactory
  }
 }
 
+/*
+ Factory Test
 
-$factory = new FlowerFactory();
+*/
+/*$factory = new FlowerFactory();
 $rose = $factory->create("Rose");
 echo $rose->createFlower();
 
+
+/*
+ Facade Test
+
+*/
+
+/*
 $facade = new FlowerFacade();
 $iris = $facade->drawIris();
 echo $iris;
+*/

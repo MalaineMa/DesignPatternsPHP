@@ -13,7 +13,7 @@ use PHPUnit\Framework\TestCase;
 class FlowerTest extends TestCase
 {
 
- public function TestCreateCar()
+ public function TestCreateFlower()
  {
 
   $factory = new FlowerFactory();

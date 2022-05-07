@@ -21,7 +21,7 @@ class Rose implements Flowers
 
  public function createFlower()
  {
-  return "Create a rose\n\r";
+  return "Create a rose \n \r";
  }
 }
 
@@ -36,7 +36,7 @@ class Iris implements Flowers
 
  public function createFlower()
  {
-  return "Create a iris\n\r";
+  return "Create a iris \n \r";
  }
 }
 
@@ -86,9 +86,11 @@ class FlowerFactory
  Factory Test
 
 */
-/*$factory = new FlowerFactory();
+
+/*
+$factory = new FlowerFactory();
 $rose = $factory->create("Rose");
-echo $rose->createFlower();
+echo $rose->createFlower();*/
 
 
 /*
@@ -99,5 +101,4 @@ echo $rose->createFlower();
 /*
 $facade = new FlowerFacade();
 $iris = $facade->drawIris();
-echo $iris;
-*/
+echo $iris;*/

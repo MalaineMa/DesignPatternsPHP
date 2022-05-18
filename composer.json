@@ -1,5 +1,5 @@
 {
-    "name": "malaine/design-patterns-test",
+  "name": "malaine/design-patterns-test",
     "description": "design patterns example in php",
     "authors": [
         {
@@ -22,4 +22,5 @@
     "require-dev": {
         "phpunit/phpunit": "^9.5"
     }
+ 
 }
